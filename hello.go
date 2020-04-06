@@ -25,7 +25,7 @@ func NewConfig() (Config, error) {
 }
 
 // HelloWorld prints something
-func HelloWorld(w http.ResponseWriter, r *http.Request) {
+func HelloSubDir(w http.ResponseWriter, r *http.Request) {
 
 	config, err := NewConfig()
 	if err != nil {
